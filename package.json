@@ -1,0 +1,38 @@
+{
+  "name": "westernpacificbuilders",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env NODE_ENV=test mocha ./tests --recursive",
+    "deploy": "node deploy.js",
+    "start": "NODE_ENV=production node ./app.js",
+    "dev": "cross-env NODE_ENV=development nodemon ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexiz-Padilla/westernpacificbuilders.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alexiz-Padilla/westernpacificbuilders/issues"
+  },
+  "homepage": "https://github.com/Alexiz-Padilla/westernpacificbuilders#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.7.5",
+    "morgan": "^1.9.1",
+    "mustache": "^4.0.0",
+    "node-pre-gyp": "^0.13.0",
+    "nodemailer": "^6.4.2"
+  }
+}
